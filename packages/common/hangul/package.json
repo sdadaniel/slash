@@ -11,8 +11,7 @@
   },
   "main": "./src/index.ts",
   "files": [
-    "dist",
-    "esm"
+    "dist"
   ],
   "scripts": {
     "build": "rm -rf dist esm && tsc -p tsconfig.build.json --declaration --emitDeclarationOnly --declarationDir dist && rollup -c rollup.config.js",
